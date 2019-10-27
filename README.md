@@ -19,3 +19,16 @@ A Real time , High performance, Multi-dimension Slow Query Analysis System for T
 
   - show the real time slow query stream 
   - show report data
+
+## Code Structure
+
+- **HindsightLpegPlugin** 
+
+  regular matching module
+  
+- **TiSQLConsumer**  consume message from Kafka
+
+
+- **TiSlowSQLAPI**   web apis
+
+- **tss-ui**  front end build with react
